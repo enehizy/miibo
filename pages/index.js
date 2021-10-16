@@ -1,6 +1,6 @@
 import React from 'react';
 import PlaceCard from '../components/PlaceCard';
-import Search from '../components/search';
+import Search from '../components/Search';
 export default function index() {
     return (
         <>
@@ -13,7 +13,7 @@ export default function index() {
 </svg>
 
 <Search/>
-    <h5 className="text-red font-urbanist mt-8">Explore</h5>
+    <h5 className="text-red font-urbanist ">Explore</h5>
     <div className="flex">
         <PlaceCard/>
         <PlaceCard/>
