@@ -1,0 +1,28 @@
+@tailwind base;
+@layer base{
+    @font-face {
+        font-family: "Urbanist";
+        font-style:Black;
+        src: local('Urbanist'), url(/fonts/Urbanist-Black.ttf) format('ttf');
+      } 
+     
+    h4{
+        font-size:36px;
+
+    }
+    h5{
+        font-size: 25px;
+    }
+}
+
+@tailwind utilities;
+@tailwind components;
+
+
+    
+  
+
+
+    
+
+
