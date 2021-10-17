@@ -13,14 +13,20 @@ export default function index() {
            
 
 <Search/>
-<p className="" ></p>
+
     <h5 className="text-red font-urbanist mt-64">Explore</h5>
-    <div className="flex">
+    <div className="overflow-x-scroll py-1 md:overflow-x-hidden ">
+    <div className="flex flex-wrap w-[700px] gap-4">
         <PlaceCard/>
         <PlaceCard/>
         <PlaceCard/>
         <PlaceCard/>
+        <PlaceCard/>
+        <PlaceCard/>
+        
     </div>
+    </div>
+    
 
 
     <h5 >Get your perfect event space stress free</h5>
